@@ -1,0 +1,244 @@
+{
+  "visualStyles": {
+    "clusteredColumnChart": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "legend": [
+          {
+            "show": false,
+            "position": "Top",
+            "showTitle": true,
+            "titleText": "",
+            "labelColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "fontSize": "12"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "preferredCategoryWidth": "20",
+            "maxMarginFactor": "25",
+            "innerPadding": "50",
+            "concatenateLabels": true,
+            "showAxisTitle": true,
+            "axisStyle": "showTitleOnly",
+            "titleColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "titleText": "",
+            "titleFontSize": 12,
+            "titleFontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": false,
+            "position": "Right",
+            "axisScale": "Linear",
+            "start": 0,
+            "end": 10,
+            "labelColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "labelDisplayUnits": "0",
+            "labelPrecision": "Auto",
+            "showAxisTitle": true,
+            "axisStyle": "showTitleOnly",
+            "color": {
+              "solid": {
+                "color": "414141"
+              }
+            },
+            "titleText": "",
+            "titleFontSize": 12,
+            "titleFontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "gridlineShow": true,
+            "gridlineColor": {
+              "solid": {
+                "color": "#252423"
+              }
+            },
+            "gridlineThickness": 2,
+            "gridlineStyle": "dashed"
+          }
+        ],
+        "zoom": [
+          {
+            "show": false,
+            "showOnCategoryAxis": true,
+            "showOnValueAxis": true,
+            "showLabels": false,
+            "showTooltip": false
+          }
+        ],
+        "dataPoint": [
+          {
+            "transparency": "0",
+            "showAllDataPoints": true,
+            "fill": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "labelDisplayUnits": "0",
+            "labelPrecision": "2",
+            "labelOrientation": "vertical",
+            "labelPosition": "OutsideEnd",
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "enableBackground": {
+              "solid": {
+                "color": true
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "backgroundTransparency": {
+              "solid": {
+                "color": "25"
+              }
+            }
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": "0"
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "radius": "6"
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "position": "Outer",
+            "preset": "Bottom",
+            "shadowSpread": "0",
+            "shadowBlur": "4",
+            "angle": "90",
+            "shadowDistance": "2",
+            "transparency": "50"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "border": "#9b8080",
+            "transparency": "0",
+            "foreground": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "showVisualInformationButton": true,
+            "showVisualWarningButton": true,
+            "showVisualErrorButton": true,
+            "showDrillRoleSelector": true,
+            "showDrillUpButton": true,
+            "showDrillToggleButton": true,
+            "showDrillDownLevelButton": true,
+            "showDrillDownExpandButton": true,
+            "showPinButton": true,
+            "showFocusModeButton": true,
+            "showFilterRestatementButton": true,
+            "showSeeDataLayoutToggleButton": true,
+            "showOptionsMenu": true,
+            "showTooltipButton": false
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "text": "",
+            "titleFontColor": {
+              "solid": {
+                "color": "#D0D0D0"
+              }
+            },
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": "0"
+          }
+        ]
+      }
+    }
+  }
+}

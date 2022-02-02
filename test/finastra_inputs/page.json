@@ -1,0 +1,55 @@
+{
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#ECECEC"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": 0,
+            "titleSize": "12",
+            "headerSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "border": true
+          }
+        ]
+      }
+    }
+  }
+}

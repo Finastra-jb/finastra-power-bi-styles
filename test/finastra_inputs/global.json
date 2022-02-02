@@ -1,0 +1,210 @@
+{
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "alignment": "left",
+            "fontSize": 12,
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "lockAspect": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "radius": "6"
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "None"
+          }
+        ],
+        "visualHeader": [
+          {
+            "foreground": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "border": "#252423",
+            "transparency": "0"
+          }
+        ],
+        "visualTooltip": [
+          {
+            "type": "Default",
+            "titleFontColor": {
+              "solid": {
+                "color": "#D0D0D0"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "showTooltipButton": true,
+            "text": "Header tooltip text",
+            "titleFontColor": {
+              "solid": {
+                "color": "#D0D0D0"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0,
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            }
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "angle": "90",
+            "color": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "position": "Outer",
+            "preset": "Bottom",
+            "shadowBlur": "4",
+            "shadowDistance": "2",
+            "shadowSpread": "0",
+            "transparency": 25
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "checkboxAndApplyColor": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": 0,
+            "titleSize": "12",
+            "headerSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "border": true
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "",
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "border": true,
+            "borderColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "inputBoxColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": "0",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "textSize": "12"
+          }
+        ]
+      }
+    }
+  }
+}

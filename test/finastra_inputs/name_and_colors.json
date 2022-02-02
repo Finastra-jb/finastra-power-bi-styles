@@ -1,0 +1,32 @@
+{
+  "name": "FinastraSlicers720p",
+  "background": "#ECECEC",
+  "foreground": "#414141",
+  "dataColors": [
+    "#694ED6",
+    "#FFD100",
+    "#C137A2",
+    "#26D07C",
+    "#F9423A",
+    "#C7CBCA",
+    "#F04E98",
+    "#ED8B00",
+    "#009CBD",
+    "#8F7AE0",
+    "#FFDD40",
+    "#D169B9",
+    "#5CDC9D",
+    "#FB716B",
+    "#D5D8D7",
+    "#F47AB2",
+    "#F2A840",
+    "#40B5CD"
+  ],
+  "firstLevelElements": "#414141",
+  "secondLevelElements": "#717171",
+  "thirdLevelElements": "#ECECEC",
+  "fourthLevelElements": "#A0A0A0",
+  "background": "#FFFFFF",
+  "secondaryBackground": "#ECECEC",
+  "tableAccent": "#414141"
+}

@@ -1,0 +1,285 @@
+{
+  "visualStyles": {
+    "ribbonChart": {
+          "*": {
+            "general": [
+              {
+                "responsive": true
+              }
+            ],
+            "legend": [
+              {
+                "show": true,
+                "position": "Top",
+                "showTitle": true,
+                "titleText": "",
+                "labelColor": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "fontFamily": {
+                  "value": "Arial",
+                  "label": "Arial"
+                },
+                "fontSize": "12"
+              }
+            ],
+            "categoryAxis": [
+              {
+                "show": true,
+                "labelColor": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "fontSize": "12",
+                "fontFamily": {
+                  "value": "Arial",
+                  "label": "Arial"
+                },
+                "preferredCategoryWidth": "20",
+                "maxMarginFactor": "25",
+                "innerPadding": "50",
+                "concatenateLabels": true,
+                "showAxisTitle": true,
+                "axisStyle": "showTitleOnly",
+                "titleColor": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "titleText": "",
+                "titleFontSize": 12,
+                "titleFontFamily": {
+                  "value": "Arial",
+                  "label": "Arial"
+                }
+              }
+            ],
+            "zoom": [
+              {
+                "show": false,
+                "showOnCategoryAxis": true,
+                "showOnValueAxis": true,
+                "showLabels": false,
+                "showTooltip": false
+              }
+            ],
+            "dataPoint": [
+              {
+                "transparency": "0",
+                "showAllDataPoints": true,
+                "fill": {
+                  "solid": {
+                    "color": "#448822"
+                  }
+                }
+              }
+            ],
+            "labels": [
+              {
+                "show": true,
+                "color": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "labelDisplayUnits": "0",
+                "labelPrecision": "2",
+                "labelOrientation": "vertical",
+                "labelPosition": "InsideEnd",
+                "fontSize": "12",
+                "fontFamily": {
+                  "value": "Arial",
+                  "label": "Arial"
+                },
+                "enableBackground": {
+                  "solid": {
+                    "color": true
+                  }
+                },
+                "backgroundColor": {
+                  "solid": {
+                    "color": "#ffffff"
+                  }
+                },
+                "backgroundTransparency": {
+                  "solid": {
+                    "color": "25"
+                  }
+                }
+              }
+            ],
+            "plotArea": [
+              {
+                "transparency": "0"
+              }
+            ],
+            "ribbonChart": [
+              {
+                "colorBands": {
+                  "solid": {
+                    "color": true
+                  }
+                },
+                "bandsTransparency": "50",
+                "showBorder": true
+              }
+            ],
+            "title": [
+              {
+                "show": true,
+                "text": "",
+                "titleWrap": false,
+                "fontColor": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "background": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "alignment": "left",
+                "fontFamily": {
+                  "value": "Arial",
+                  "label": "Arial"
+                },
+                "fontSize": "12"
+              }
+            ],
+            "background": [
+              {
+                "show": true,
+                "color": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "transparency": "0"
+              }
+            ],
+            "lockAspect": [
+              {
+                "show": true
+              }
+            ],
+            "border": [
+              {
+                "show": true,
+                "color": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "radius": "6"
+              }
+            ],
+            "dropShadow": [
+              {
+                "show": true,
+                "color": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "position": "Outer",
+                "preset": "Bottom",
+                "shadowSpread": "0",
+                "shadowBlur": "4",
+                "angle": "90",
+                "shadowDistance": "2",
+                "transparency": "50"
+              }
+            ],
+            "visualTooltip": [
+              {
+                "show": true,
+                "titleFontColor": {
+                  "solid": {
+                    "color": "#C0C0C0"
+                  }
+                },
+                "valueFontColor": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "actionFontColor": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "fontSize": 12,
+                "fontFamily": {
+                  "value": "Arial",
+                  "label": "Arial"
+                },
+                "background": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "transparency": "0"
+              }
+            ],
+            "visualHeader": [
+              {
+                "show": true,
+                "background": {
+                  "solid": {
+                    "color": "#ffffff"
+                  }
+                },
+                "border": "#9b8080",
+                "transparency": "0",
+                "foreground": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "showVisualInformationButton": true,
+                "showVisualWarningButton": true,
+                "showVisualErrorButton": true,
+                "showDrillRoleSelector": true,
+                "showDrillUpButton": true,
+                "showDrillToggleButton": true,
+                "showDrillDownLevelButton": true,
+                "showDrillDownExpandButton": true,
+                "showPinButton": true,
+                "showFocusModeButton": true,
+                "showFilterRestatementButton": true,
+                "showSeeDataLayoutToggleButton": true,
+                "showOptionsMenu": true,
+                "showTooltipButton": false
+              }
+            ],
+            "visualHeaderTooltip": [
+              {
+                "text": "",
+                "titleFontColor": {
+                  "solid": {
+                    "color": "#D0D0D0"
+                  }
+                },
+                "fontSize": "12",
+                "fontFamily": {
+                  "value": "Arial",
+                  "label": "Arial"
+                },
+                "background": {
+                  "solid": {
+                    "color": "#414141"
+                  }
+                },
+                "transparency": "0"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
