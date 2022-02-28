@@ -1,6 +1,6 @@
 {
   "visualStyles": {
-    "areaChart": {
+    "waterfallChart": {
       "*": {
         "general": [
           {
@@ -9,7 +9,7 @@
         ],
         "legend": [
           {
-            "show": true,
+            "show": false,
             "position": "Top",
             "showTitle": true,
             "titleText": "",
@@ -22,19 +22,12 @@
               "value": "Arial",
               "label": "Arial"
             },
-            "fontSize": "12",
-            "legendMarkerRendering": "markerOnly",
-            "matchLineColor": {
-              "solid": {
-                "color": false
-              }
-            }
+            "fontSize": "12"
           }
         ],
         "categoryAxis": [
           {
             "show": true,
-            "axisType": "categorical",
             "labelColor": {
               "solid": {
                 "color": "#414141"
@@ -47,6 +40,7 @@
             },
             "preferredCategoryWidth": "20",
             "maxMarginFactor": "25",
+            "innerPadding": "50",
             "concatenateLabels": true,
             "showAxisTitle": true,
             "axisStyle": "showTitleOnly",
@@ -66,8 +60,7 @@
         "valueAxis": [
           {
             "show": true,
-            "position": "Right",
-            "axisScale": "Linear",
+            "position": "Left",
             "start": 0,
             "end": 10,
             "labelColor": {
@@ -86,7 +79,7 @@
             "axisStyle": "showTitleOnly",
             "color": {
               "solid": {
-                "color": "#414141"
+                "color": "414141"
               }
             },
             "titleText": "",
@@ -101,28 +94,8 @@
                 "color": "#414141"
               }
             },
-            "gridlineThickness": 2,
-            "gridlineStyle": "dashed"
-          }
-        ],
-        "zoom": [
-          {
-            "show": false,
-            "showOnCategoryAxis": true,
-            "showOnValueAxis": true,
-            "showLabels": false,
-            "showTooltip": false
-          }
-        ],
-        "dataPoint": [
-          {
-            "transparency": "0",
-            "showAllDataPoints": true,
-            "fill": {
-              "solid": {
-                "color": "#694ED6"
-              }
-            }
+            "gridlineThickness": "1",
+            "gridlineStyle": "dotted"
           }
         ],
         "labels": [
@@ -135,6 +108,8 @@
             },
             "labelDisplayUnits": "0",
             "labelPrecision": "2",
+            "labelOrientation": "vertical",
+            "labelPosition": "OutsideEnd",
             "fontSize": "12",
             "fontFamily": {
               "value": "Arial",
@@ -157,24 +132,47 @@
             }
           }
         ],
-        "lineStyles": [
+        "plotArea": [
           {
-            "strokeWidth": "3",
-            "strokeLineJoin": "round",
-            "lineStyle": "solid",
-            "showMarker": true,
-            "markerShape": "circle",
-            "markerSize": "6",
-            "markerColor": {
+            "transparency": "0"
+          }
+        ],
+        "dataPoint": [
+          {
+            "defaultColor": {
               "solid": {
                 "color": "#694ED6"
               }
             }
           }
         ],
-        "plotArea": [
+        "sentimentColors": [
           {
-            "transparency": "0"
+            "increaseFill": {
+              "solid": {
+                "color": "#26D07C"
+              }
+            },
+            "decreaseFill": {
+              "solid": {
+                "color": "#F9423A"
+              }
+            },
+            "totalFill": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "otherFill": {
+              "solid": {
+                "color": "#F04E98"
+              }
+            }
+          }
+        ],
+        "breakdown": [
+          {
+            "maxBreakdowns": "1"
           }
         ],
         "title": [
@@ -242,6 +240,86 @@
             "angle": "90",
             "shadowDistance": "2",
             "transparency": "50"
+          }
+        ],
+        "visualTooltip": [
+          {
+            "show": true,
+            "titleFontColor": {
+              "solid": {
+                "color": "#C0C0C0"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "border": "#9b8080",
+            "transparency": "0",
+            "foreground": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "showVisualInformationButton": true,
+            "showVisualWarningButton": true,
+            "showVisualErrorButton": true,
+            "showDrillRoleSelector": true,
+            "showDrillUpButton": true,
+            "showDrillToggleButton": true,
+            "showDrillDownLevelButton": true,
+            "showDrillDownExpandButton": true,
+            "showPinButton": true,
+            "showFocusModeButton": true,
+            "showFilterRestatementButton": true,
+            "showSeeDataLayoutToggleButton": true,
+            "showOptionsMenu": true,
+            "showTooltipButton": false
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "text": "",
+            "titleFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontSize": "12",
+            "fontFamily": "Segoe UI",
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": "0"
           }
         ]
       }

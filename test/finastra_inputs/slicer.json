@@ -1,23 +1,98 @@
 {
   "visualStyles": {
-    "clusteredColumnChart": {
+    "slicer": {
       "*": {
         "general": [
           {
-            "responsive": true
-          }
-        ],
-        "legend": [
-          {
-            "show": false,
-            "position": "Top",
-            "showTitle": true,
-            "titleText": "",
-            "labelColor": {
+            "outlineColor": {
               "solid": {
                 "color": "#414141"
               }
             },
+            "outlineWeight": 1,
+            "orientation": "vertical",
+            "responsive": true
+          }
+        ],
+        "data": [
+          {
+            "mode": "Between",
+            "relativeRange": "",
+            "relativePeriod": ""
+          }
+        ],
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": true
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "outline": "None",
+            "textSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            }
+          }
+        ],
+        "items": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "outline": "None",
+            "textSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            }
+          }
+        ],
+        "slider": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "text": "",
+            "titleWrap": true,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "alignment": "left",
             "fontFamily": {
               "value": "Arial",
               "label": "Arial"
@@ -25,101 +100,7 @@
             "fontSize": "12"
           }
         ],
-        "categoryAxis": [
-          {
-            "show": true,
-            "labelColor": {
-              "solid": {
-                "color": "#414141"
-              }
-            },
-            "fontSize": "12",
-            "fontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            },
-            "preferredCategoryWidth": "20",
-            "maxMarginFactor": "25",
-            "innerPadding": "50",
-            "concatenateLabels": true,
-            "showAxisTitle": true,
-            "axisStyle": "showTitleOnly",
-            "titleColor": {
-              "solid": {
-                "color": "#414141"
-              }
-            },
-            "titleText": "",
-            "titleFontSize": 12,
-            "titleFontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            }
-          }
-        ],
-        "valueAxis": [
-          {
-            "show": false,
-            "position": "Right",
-            "axisScale": "Linear",
-            "start": 0,
-            "end": 10,
-            "labelColor": {
-              "solid": {
-                "color": "#414141"
-              }
-            },
-            "fontSize": "12",
-            "fontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            },
-            "labelDisplayUnits": "0",
-            "labelPrecision": "Auto",
-            "showAxisTitle": true,
-            "axisStyle": "showTitleOnly",
-            "color": {
-              "solid": {
-                "color": "414141"
-              }
-            },
-            "titleText": "",
-            "titleFontSize": 12,
-            "titleFontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            },
-            "gridlineShow": true,
-            "gridlineColor": {
-              "solid": {
-                "color": "#252423"
-              }
-            },
-            "gridlineThickness": 2,
-            "gridlineStyle": "dashed"
-          }
-        ],
-        "zoom": [
-          {
-            "show": false,
-            "showOnCategoryAxis": true,
-            "showOnValueAxis": true,
-            "showLabels": false,
-            "showTooltip": false
-          }
-        ],
-        "dataPoint": [
-          {
-            "transparency": "0",
-            "showAllDataPoints": true,
-            "fill": {
-              "solid": {
-                "color": "#694ED6"
-              }
-            }
-          }
-        ],
-        "labels": [
+        "background": [
           {
             "show": true,
             "color": {
@@ -127,43 +108,20 @@
                 "color": "#414141"
               }
             },
-            "labelDisplayUnits": "0",
-            "labelPrecision": "2",
-            "labelOrientation": "vertical",
-            "labelPosition": "OutsideEnd",
-            "fontSize": "12",
-            "fontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            },
-            "enableBackground": {
-              "solid": {
-                "color": true
-              }
-            },
-            "backgroundColor": {
-              "solid": {
-                "color": "#ffffff"
-              }
-            },
-            "backgroundTransparency": {
-              "solid": {
-                "color": "25"
-              }
-            }
+            "transparency": "100"
           }
         ],
-        "plotArea": [
+        "lockAspect": [
           {
-            "transparency": "0"
+            "show": true
           }
         ],
         "border": [
           {
-            "show": true,
+            "show": false,
             "color": {
               "solid": {
-                "color": "#FFFFFF"
+                "color": "#414141"
               }
             },
             "radius": "6"
@@ -171,7 +129,7 @@
         ],
         "dropShadow": [
           {
-            "show": true,
+            "show": false,
             "color": {
               "solid": {
                 "color": "#414141"
@@ -222,7 +180,7 @@
             "text": "",
             "titleFontColor": {
               "solid": {
-                "color": "#D0D0D0"
+                "color": "#C0C0C0"
               }
             },
             "fontSize": "12",

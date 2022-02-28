@@ -1,0 +1,194 @@
+{
+  "visualStyles": {
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "labelDisplayUnits": "0",
+            "labelPrecision": 0,
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "preserveWhitespace": true
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            }
+          }
+        ],
+        "wordWrap": [
+          {
+            "show": true
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "title": [
+          {
+            "show": false,
+            "text": "",
+            "fontColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "alignment": "left",
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            }
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "radius": "6"
+          }
+        ],
+        "lockAspect": [
+          {
+            "show": true
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "position": "Outer",
+            "preset": "Bottom",
+            "shadowSpread": "0",
+            "shadowBlur": "4",
+            "angle": "90",
+            "shadowDistance": "2",
+            "transparency": "50"
+          }
+        ],
+        "visualTooltip": [
+          {
+            "show": true,
+            "titleFontColor": {
+              "solid": {
+                "color": "#C0C0C0"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "border": "#9b8080",
+            "transparency": "0",
+            "foreground": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "showVisualInformationButton": true,
+            "showVisualWarningButton": true,
+            "showVisualErrorButton": true,
+            "showDrillRoleSelector": true,
+            "showDrillUpButton": true,
+            "showDrillToggleButton": true,
+            "showDrillDownLevelButton": true,
+            "showDrillDownExpandButton": true,
+            "showPinButton": true,
+            "showFocusModeButton": true,
+            "showFilterRestatementButton": true,
+            "showSeeDataLayoutToggleButton": true,
+            "showOptionsMenu": true,
+            "showTooltipButton": false
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "text": "",
+            "titleFontColor": {
+              "solid": {
+                "color": "#C0C0C0"
+              }
+            },
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": "0"
+          }
+        ]
+      }
+    }
+  }
+}

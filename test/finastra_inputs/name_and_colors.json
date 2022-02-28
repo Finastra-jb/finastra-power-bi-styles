@@ -2,6 +2,12 @@
   "name": "FinastraSlicers720p",
   "background": "#ECECEC",
   "foreground": "#414141",
+  "firstLevelElements": "#414141",
+  "secondLevelElements": "#717171",
+  "thirdLevelElements": "#ECECEC",
+  "fourthLevelElements": "#A0A0A0",
+  "secondaryBackground": "#ECECEC",
+  "tableAccent": "#414141",
   "dataColors": [
     "#694ED6",
     "#FFD100",
@@ -21,12 +27,5 @@
     "#F47AB2",
     "#F2A840",
     "#40B5CD"
-  ],
-  "firstLevelElements": "#414141",
-  "secondLevelElements": "#717171",
-  "thirdLevelElements": "#ECECEC",
-  "fourthLevelElements": "#A0A0A0",
-  "background": "#FFFFFF",
-  "secondaryBackground": "#ECECEC",
-  "tableAccent": "#414141"
+  ]
 }

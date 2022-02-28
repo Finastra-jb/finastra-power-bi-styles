@@ -1,12 +1,7 @@
 {
   "visualStyles": {
-    "clusteredColumnChart": {
+    "donutChart": {
       "*": {
-        "general": [
-          {
-            "responsive": true
-          }
-        ],
         "legend": [
           {
             "show": false,
@@ -22,140 +17,70 @@
               "value": "Arial",
               "label": "Arial"
             },
-            "fontSize": "12"
-          }
-        ],
-        "categoryAxis": [
-          {
-            "show": true,
-            "labelColor": {
-              "solid": {
-                "color": "#414141"
-              }
-            },
-            "fontSize": "12",
-            "fontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            },
-            "preferredCategoryWidth": "20",
-            "maxMarginFactor": "25",
-            "innerPadding": "50",
-            "concatenateLabels": true,
-            "showAxisTitle": true,
-            "axisStyle": "showTitleOnly",
-            "titleColor": {
-              "solid": {
-                "color": "#414141"
-              }
-            },
-            "titleText": "",
-            "titleFontSize": 12,
-            "titleFontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            }
-          }
-        ],
-        "valueAxis": [
-          {
-            "show": false,
-            "position": "Right",
-            "axisScale": "Linear",
-            "start": 0,
-            "end": 10,
-            "labelColor": {
-              "solid": {
-                "color": "#414141"
-              }
-            },
-            "fontSize": "12",
-            "fontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            },
-            "labelDisplayUnits": "0",
-            "labelPrecision": "Auto",
-            "showAxisTitle": true,
-            "axisStyle": "showTitleOnly",
-            "color": {
-              "solid": {
-                "color": "414141"
-              }
-            },
-            "titleText": "",
-            "titleFontSize": 12,
-            "titleFontFamily": {
-              "value": "Arial",
-              "label": "Arial"
-            },
-            "gridlineShow": true,
-            "gridlineColor": {
-              "solid": {
-                "color": "#252423"
-              }
-            },
-            "gridlineThickness": 2,
-            "gridlineStyle": "dashed"
-          }
-        ],
-        "zoom": [
-          {
-            "show": false,
-            "showOnCategoryAxis": true,
-            "showOnValueAxis": true,
-            "showLabels": false,
-            "showTooltip": false
-          }
-        ],
-        "dataPoint": [
-          {
-            "transparency": "0",
-            "showAllDataPoints": true,
-            "fill": {
-              "solid": {
-                "color": "#694ED6"
-              }
-            }
+            "fontSize": 12
           }
         ],
         "labels": [
           {
             "show": true,
+            "labelStyle": "Both",
             "color": {
               "solid": {
                 "color": "#414141"
               }
             },
             "labelDisplayUnits": "0",
-            "labelPrecision": "2",
-            "labelOrientation": "vertical",
-            "labelPosition": "OutsideEnd",
+            "labelPrecision": 0,
             "fontSize": "12",
             "fontFamily": {
               "value": "Arial",
               "label": "Arial"
             },
-            "enableBackground": {
-              "solid": {
-                "color": true
-              }
-            },
-            "backgroundColor": {
-              "solid": {
-                "color": "#ffffff"
-              }
-            },
-            "backgroundTransparency": {
-              "solid": {
-                "color": "25"
-              }
-            }
+            "position": "inside"
           }
         ],
-        "plotArea": [
+        "slices": [
           {
+            "innerRadiusRatio": "85"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "text": "",
+            "titleWrap": true,
+            "fontColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "alignment": "left",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "fontSize": "12"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
             "transparency": "0"
+          }
+        ],
+        "lockAspect": [
+          {
+            "show": true
           }
         ],
         "border": [
@@ -222,7 +147,7 @@
             "text": "",
             "titleFontColor": {
               "solid": {
-                "color": "#D0D0D0"
+                "color": "#C0C0C0"
               }
             },
             "fontSize": "12",

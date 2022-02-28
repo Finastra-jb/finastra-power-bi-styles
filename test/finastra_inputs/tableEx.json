@@ -1,0 +1,266 @@
+{
+  "visualStyles": {
+    "tableEx": {
+      "*": {
+        "stylePreset": [
+          {
+            "name": "Default"
+          }
+        ],
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridVerticalColor": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "gridVerticalWeight": "1",
+            "gridHorizontal": true,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "gridHorizontalWeight": "1",
+            "rowPadding": "8",
+            "outlineColor": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "outlineWeight": "1",
+            "textSize": "12",
+            "imageHeight": "64"
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "outline": "BottomOnly",
+            "autoSizeColumnWidth": true,
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "fontSize": 12,
+            "alignment": "Left",
+            "wordWrap": true
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": "#F0EDFB"
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "outline": "None",
+            "urlIcon": false,
+            "wordWrap": true,
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "fontSize": 12
+          }
+        ],
+        "total": [
+          {
+            "totals": true,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#694ED6"
+              }
+            },
+            "outline": "None",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "fontSize": "12"
+          }
+        ],
+        "title": [
+          {
+            "show": false,
+            "text": "",
+            "titleWrap": true,
+            "fontColor": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "alignment": "left",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "fontSize": "12"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "lockAspect": [
+          {
+            "show": true
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "radius": "6"
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "position": "Outer",
+            "preset": "Bottom",
+            "shadowSpread": "0",
+            "shadowBlur": "4",
+            "angle": "90",
+            "shadowDistance": "2",
+            "transparency": "50"
+          }
+        ],
+        "visualTooltip": [
+          {
+            "show": true,
+            "titleFontColor": {
+              "solid": {
+                "color": "#C0C0C0"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": "0"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "border": "#9b8080",
+            "transparency": "0",
+            "foreground": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "showVisualInformationButton": true,
+            "showVisualWarningButton": true,
+            "showVisualErrorButton": true,
+            "showDrillRoleSelector": true,
+            "showDrillUpButton": true,
+            "showDrillToggleButton": true,
+            "showDrillDownLevelButton": true,
+            "showDrillDownExpandButton": true,
+            "showPinButton": true,
+            "showFocusModeButton": true,
+            "showFilterRestatementButton": true,
+            "showSeeDataLayoutToggleButton": true,
+            "showOptionsMenu": true,
+            "showTooltipButton": false
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "text": "",
+            "titleFontColor": {
+              "solid": {
+                "color": "#C0C0C0"
+              }
+            },
+            "fontSize": "12",
+            "fontFamily": {
+              "value": "Arial",
+              "label": "Arial"
+            },
+            "background": {
+              "solid": {
+                "color": "#414141"
+              }
+            },
+            "transparency": "0"
+          }
+        ]
+      }
+    }
+  }
+}
